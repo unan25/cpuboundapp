@@ -18,6 +18,10 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    // https://mvnrepository.com/artifact/org.glassfish.jaxb/jaxb-runtime
+    implementation 'org.glassfish.jaxb:jaxb-runtime:4.0.4'
+
 }
 
 tasks.named('test') {
